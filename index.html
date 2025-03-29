@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<!-- ctrl+? to comment line--> 
+
+    <head>
+        <title>Basic HTML Form</title>
+        <meta name="description" content="Basic HTML Form">
+
+<style>
+ul {
+    display: inline;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+</style>        
+    </head>
+
+    <body>
+
+    <h1>Basic HTML Form</h1>
+
+    <!-- inline elements column by column -->
+
+    <div>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First name: </label>
+                <input type="text" id="fname" name="fname"><br><br>
+                
+                <label for="lname">Last name: </label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="lname">Birth Day: </label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="lname">Select your Gender: </label>
+                <select name="title" id="title">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+                <br>
+                <label for="lname">Choose Drink: </label>
+                <br>
+                <input type="radio" id="Cofee" name="fav_language" value="Cofee">
+                <label for="Single">Cofee</label><br>
+                <input type="radio" id="Tea" name="fav_language" value="Tea">
+                <label for="Married">Tea</label><br>
+                <input type="radio" id="Hot Chocolate" name="fav_language" value="Hot Chocolate">
+                <label for="Married">Hot Chocolate</label><br>
+
+
+                <br>
+                <label for="lname">What Ice Cream Do you like: </label>
+                <br>
+                <input type="checkbox" id="ch1" name="ch1" value="Chocolate">
+                <label for="ch1"> Chocolate</label><br>
+                <input type="checkbox" id="ch2" name="ch2" value="Chocolate Pudding">
+                <label for="ch2"> Chocolate Pudding</label><br>
+                <input type="checkbox" id="ch3" name="ch3" value="Chocolate Peanut Butter">
+                <label for="ch3"> Chocolate Peanut Butter</label><br>
+                <input type="checkbox" id="ch4" name="ch4" value="Straeburry">
+                <label for="ch4"> Straeburry</label><br>
+
+                <br>
+                <label for="lname">Select a School: </label>
+                <select name="school" id="school">
+                    <option value="Male">Royal</option>
+                    <option value="Female">Trinity</option>
+                    <option value="Female">St. Thomas</option>
+                </select>
+
+                <br>
+                <br>
+                <input type="submit" id="Submit">
+              </form>
+        </div>
+
+        <br>
+        <div>
+            <ul>
+                <li><a href="https://www.web.com/">Web Com</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.youtube.com">YouTube</a></li>
+            </ul>
+        </div>
+
+        <br>
+        <h1>Image</h1>
+        <div>
+            <img src="assests/care_label.jpg" alt="" width="200" height="200">
+            <img src="assests/care_label.jpg" alt="" width="200" height="200">
+        </div>
+
+        <br>
+        <h1>View My Web</h1>
+        <div></div>
+            <iframe src="https://asc.com" frameborder="0"  width="500px" height="500px"></iframe>
+        </div>
+    </div>
+
+    <h1>Video</h1>
+    <div>
+     <video src="assests/test_bird.mp4" alt="" width="500" height="400" controls></video> 
+    </div>
+
+    </body>
+</html>
